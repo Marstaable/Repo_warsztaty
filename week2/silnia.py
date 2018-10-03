@@ -1,0 +1,3 @@
+# czy mamy zakres?
+# pętla for
+# obliczyc silnie do 10 ...
