@@ -7,9 +7,9 @@
 
 star = 0
 
-for number in range(16):
+for number in range(3):
     number+=1
-    star = " *" * number
+    star = "* " * number
     print(star)
 
 

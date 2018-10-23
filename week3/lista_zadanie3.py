@@ -1,7 +1,7 @@
 # wyszukiwanie najwiekszej i najmniejszej wartości
 
 
-lista = [1, 2, 3, 4, 5, 6, 7, 9]
+lista = [3, 4, 5, 6, 7, 9,10,11,12,13,14,15,16]
 #
 # a = min(lista)
 # b = max(lista)
