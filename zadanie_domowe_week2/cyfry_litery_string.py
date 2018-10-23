@@ -10,4 +10,4 @@ for letters in login:
     else:
         letter = letter +1
 
-print(f"W podanym słowie {login} jest {letter} liter i {number} cyfr")
+print(f"W podanym słowie {login} jest {letter} liter i {number} cyfry")
