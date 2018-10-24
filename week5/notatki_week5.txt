@@ -1,0 +1,50 @@
+timeit
+datatime?
+
+
+
+"Wszysko w Pythonie jest obiektem i posiada typ :P"
+
+obiekty - elementy,ktore posiadaja jakis tym , wewnetrzna reprezentacje??
+Sposob w jaki mozemy wchodzic w interakcje z obiektem
+instancja obiektu :
+auto - obiekt
+marka instancj
+
+
+typ == instancja
+instancja == egzemplarz???
+abstrakcja - esencja, wyłuskanie, wyciągniecie z danego problemu najbardziej kluczowych elemetow
+przezucanie ze swiata zewnetrznego do pythona nzaywamy abstrakcja danych
+
+interfejs do interakcji z obiektem poprzez metody
+w obiektowym podejsciu do programowania nie ma dowolności
+
+atrybuty i zdolności
+kolor = czerwony
+zdolność = jedzie ?
+
+del()  - usuwanie kluczy ze słownika
+-
+for element in {"a":1}:> otrzymam domyslnie key
+
+metoda wywoływana jest bezposrednio na instancji obiektu ???
+
+#objekt - klasa nadrzędna/rodzic - zawsze to wpisujemy bo tak :P dorzuca pewne ukryte własciwoasci
+
+class Samochod(object):
+    pass
+    # definicje danych
+    # definicje metod
+
+
+Metody specjalne - wołane przez Pythona, spodziewa sie ich w konkretnym kontekscie
+konstruktor - odpowiedzielny za tworzenie instacji??
+lista argumetow - marka,model,self
+self - pierwszy argument kazdej metody,odnosi sie do pierwszej instancji na ktorej jest wolana metoda
+def __init__(self,marka,model):
+    self.marka = marka >>przypisanie wartosci marka do atrybutu marka
+    self.model = model
+
+
+wewnetrzna reprezentacja listy -
