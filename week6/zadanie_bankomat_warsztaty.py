@@ -57,7 +57,7 @@ class ATM(object):
                     elif small_menu =='2':
                         print("Dziękujemy za wizytę.Życzymy Miłego Dnia")
                 elif kwota_po_wyplacie >= 0:
-                    print("Transakcja Zrealizowana: Pozostało na koncie " + str(kwota_po_wyplacie))
+                    print(" Transakcja Zrealizowana: Pozostało na koncie " + str(kwota_po_wyplacie))
                 else:
                     print("Nie wybrano odpowiedniej opcji")
 
