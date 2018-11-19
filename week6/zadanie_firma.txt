@@ -1,0 +1,9 @@
+# mamy firme, ktora posiada pracownikow, chcemy miec rozne typy pracownikow
+#kazdy bedzie miala w inny sposob obliczane wynagrodzenie(stawka godzinowa, miesięczna)
+
+ # pracownik - imie, nazwisko
+ # Stanowiska godzinowe  - EmployeeHourly
+ # Stanowska Inne - EmployeeSalary
+
+
+

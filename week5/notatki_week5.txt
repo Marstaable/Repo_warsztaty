@@ -47,4 +47,8 @@ def __init__(self,marka,model):
     self.model = model
 
 
-wewnetrzna reprezentacja listy -
+wewnetrzna reprezentacja listy
+
+Dziedziczenie pozwala na przekazanie pewnych atrybutow i metod.
+
+konstruktor wolany jest  w momencie inicjalizacji(wywołania) klasy

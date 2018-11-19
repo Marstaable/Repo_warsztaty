@@ -1,0 +1,54 @@
+virtual env -
+kopia python w osobnym katalogu
+
+Menadzer pakietow python - pip
+pypi - centralne repozytorium - masa bibliotek
+
+pip freeze > zaleznosci.txt  - przyda się :)
+
+
+kolejnosc przeszukiwania plikow jest z gory ustalona w pythonie,
+moge to zmienic ale nalezy uważać, w przypadku środowiska virtualnego mozemy nie dostać się do głównego repozytorium
+
+sys.path.insert(0,"sciezka")
+
+virtualenv -p ----> tak moge podac sciezke do pythona na podstawie, ktorego tworze vitenv
+
+pip install virtualenv
+virtualenv <nazwa_mojego_środowiska>
+source mytestingenv/bin/activate
+deactivate
+paczki, ktore instaluja sie razem z biblioteka ktora my instalujemy nazywamy zaleznosciami(dependency)
+
+*** TEST ***
+
+test_<nazwa_modulu>
+
+TDD - test driven development
+
+testy jednostkowe -testuja jakis kawalek kodu
+blackbox - pilka/banan
+whitebox -wiem co sie bedzie działo
+         - wchodzi w szczegoly kodu
+
+"miał być banan z pilki
+ ale sie popsulo i trzeba to poprawic tak a tak"
+
+ coverage.py
+
+ zaczynam pisanie kodu od testu, ktory  nic nie robi :P
+asercja - taki if ktory rzuca wyjątek
+
+-r nazwainnegopliku.txt (przydatne)zaleznosci
+
+
+ddt - biblioteka do testow
+
+pipeline budowania aplikacji ???
+
+kazdy test powinien zawierac jedna asercje
+
+dekorator na klasie @ddt
+i na testach tez @ddt
+
+

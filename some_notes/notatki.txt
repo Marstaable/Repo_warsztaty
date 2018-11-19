@@ -1,0 +1,71 @@
+dziedziczenie diamentowe -
+Klasa dziecka bedzie szukac atrybutu w kolejnosci z lewej do prawej z dolu do gory
+wielodziedziczenie - dziedziczenie z wielu klas
+
+
+class Mul(Osiol,KoN):
+pass
+
+Najpierw Mul dziedziczy po ośle a potem po koniu( w przypadku modulow o takej samej
+                                nazwie zostana nadpisane te z osla przez konie, w mysl dziedziczenia od lewej do prawej
+
+super() - posrednik metod, posredniczy w tworzeniu instancji danej klasy ????
+
+lepiej jest odwołać sie do klasy nadrzędnej bezposrednio, w przypadku gdy mamy dziedziczenie diamentowe,
+ metoda super moze nam tu namieszac
+
+
+pola klasy, metody klasy,
+
+Pola klasy - współdzielone atrybuty?
+
+
+Class Osoba:
+    ilosc_osob = 0 # ta cześć kazdy moze modyfikowac
+
+    def__init__(self,imie,nazwisko):
+    Osoba.ilosc_osob +=1 --->  nie ma self bo to jest podwolanie do klasy nie instancji
+    self.imie = imie
+    self.nazwisko = nazwisko --->  kazdy ma inne ale kazdy ma
+
+
+Metody klasy
+
+dekorator - @nazwa_dekoratora ---> @classmethod
+
+def my_class_method(cls)
+nie mam dostępu do atrybutow obiektu tylko klasy
+nie potrzebujemy obiektu ale potrzebujemy klase w class metod
+
+Po co mi to ? jako alternatywny konstruktor???
+
+gdy nie mam obiektow a chce odowlac sie do klasy ????
+
+
+Metody statyczne
+
+
+@staticmethod -
+
+def my_static_method():
+    pass
+
+MyClass.my_static_method
+
+
+
+nie muszę przekazywac ani klasy anu obiektu, cos co kazdy ma ale nie ma ze soba nic wspolnego
+
+__mro__ - methor resolution order
+
+
+nazwaklasy.nazwaatrybutu
+self.nazwastrybutu
+
+
+
+
+def __del__(self):  -nie mozna na tym polegac bo gk moze powiedziec nie
+
+
+del <nazwa_obiektu>
