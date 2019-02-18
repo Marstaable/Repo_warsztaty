@@ -1,0 +1,40 @@
+atrybuty klasy ! -
+
+class Foo:
+    lista = []
+
+f = Foo()
+f.lista.append(1)
+print(f.lista)
+
+g = Foo()
+g.lista.append(2)
+print(g.lista)
+
+# uwaga instancje wspołdzielą wartość atrybutu
+init - spersonalizowanie atrybutów w klasie
+Bork ? - swiadomosc kolektywna- wzorzec projektowy
+
+dekorator - funkcja, ktore przechowuja funkcje
+@staticmethod - zwykle funkcje, ktore sa przyjwiazane do clasy ???
+
+Dziedziczymy, rowniez atrybuty i metody prywatne - dostęp do nich mamy poprzez klasę rodzica :P
+
+Tworzenie argumentow niedostępnych z zwenątrz
+atrybuty prywatne __ -pola prywatne - nie są dostępne z zewnątrz
+
+namespace - obszar nazw -kawałek miejsca w pythonie, gdzie mam y dostępne w pythonie pewne,atrybuty.
+Klasa - nazwy atrybutow,nazwy metod , nazwy tego co dziedziczymy
+
+Metody prywatne, nie dokonca prywatne, bo mimo wszytsko mozna sie do nich dostac, gdy wiemy jaka jest składnia
+
+
+Properties:
+metody wirtualne, zmiana z metody, na atrybut - mozemy dzieki temu go zastrzec
+
+
+getter - metoda, ktora słuzy do wydobywania atrybutu np prywatnego(read only acces do atrybutow i metod)
+setter - pozwalamy na dostęp, na zasadach jakie my uważamy za słuszne - zawsze po getter'ach
+deleter - usuwanie atrybutu z klasy?
+
+

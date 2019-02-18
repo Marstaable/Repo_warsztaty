@@ -1,0 +1,40 @@
+metody specjalne -
+init - tworzy sie w momencie tworzenia instancji
+referencja do instancji na ktroej wywolujemy metode
+
+__add__
+
+[1].__add__([1])
+
+wywołuje sie metoda lewego obiektu :P
+
+def __str__(self):
+ return "f'{self.real}+{self.imag}i"
+
+ co zakłada oop - wszytsko jest obiektem - a akzdy program jest zbitka obiektow z relacjami
+
+ Abstarakcja  - uproszczenie/ z wyciągnięciem "clue" tych cech i
+                atrybutow i metod dla danego obiektu (ograniczone do esencji)
+
+ Dziedziczenie - pozwala na kopiowanie/przenoszenie atrybutow i metod pomiedzy clasami "od rodzica do dziecka"
+                 class Samochod:
+                 pass
+                 Klasa bazowa
+
+
+                 isinstance(obiekt,klasa)  - sprawda czy dany obiekt jest instancją
+                 if instance(other,int):
+                            :P
+
+                 issubclass(klasaA,klasaB) - sprawdza czy klasaA jest podklasą klasyB
+
+
+ Enkapsulacja  - ukrycie, ograniczneie zawilej logiki za pewnym uproszczonym sposobem uzytkowania, np.funkcja
+                 zamkniecie pewnej logiki w jakiejs "malej bance" prostsza reprezentacją
+
+ Poliformizm - "kaczkowanie"??? duckducktyping jesli cos sie zachowuje w pewien sposob , ma pewnego rodzaju atrybuty,
+                to nie zastanawiam sie nad tym jak to sie nazywa
+                 wiem ze moge tego uzyc tak jak to wyglada(iterabble - lista, string,slownik)
+
+
+Przesłanianie- redefiniowanie metod w klasie dziecka metod odziedziczonych ???

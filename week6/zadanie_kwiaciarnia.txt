@@ -1,0 +1,16 @@
+kwiaciarnia :)
+
+bukiety , kwiaty
+Kwiat - cena, rodzaj
+rachunek
+jesli kwaitow zabrakło dać znac(moze cos innego zaproponować)
+wstążki, celofan
+stan kwiatow - ile czego?
+zrob_bukiet
+wystaw_rachunek
+
+
+kwiat -
+róża biała czerwona herbaciana
+tulipan
+
